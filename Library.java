@@ -73,7 +73,7 @@ public  class Library {
         }
 
         System.out.println("Yeni kitab elave etmek istiyirsiniz? Yes or No: ");
-        scanner.nextLine(); // Consume newline character
+        scanner.nextLine(); 
         String answer = scanner.nextLine();
         if (answer.equalsIgnoreCase("yes")) {
             addBook();
